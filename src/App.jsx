@@ -1,8 +1,11 @@
-
+import { Router } from './Router'
+import './global.css'
 
 function App() {
   return (
-    <h1>Olá,React!</h1>
+    <div className="App">
+     <Router />
+    </div>
   )
 }
 
